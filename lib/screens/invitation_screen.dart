@@ -220,7 +220,24 @@ class _InvitationScreenState extends State<InvitationScreen>
                                       ),
                                     ),
                                   ),
-                                  SizedBox(height: spacing + 10),
+                                  SizedBox(height: spacing),
+                                  Text(
+                                    '14 февраля 18:00',
+                                    style: TextStyle(
+                                      fontSize: isSmallScreen ? 18.0 : 22.0,
+                                      fontWeight: FontWeight.w500,
+                                      color: Colors.white.withValues(alpha: 0.9),
+                                      letterSpacing: 1.2,
+                                      shadows: const [
+                                        Shadow(
+                                          blurRadius: 6,
+                                          color: Colors.black26,
+                                          offset: Offset(1, 1),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  SizedBox(height: spacing),
                                   Text(
                                     'Пойдёшь со мной\nна свидание?',
                                     textAlign: TextAlign.center,
